@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B300BF0A28BA43F1009CEFBF /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300BF0928BA43F1009CEFBF /* Tests_iOS.swift */; };
+		B300BF0C28BA43F1009CEFBF /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300BF0B28BA43F1009CEFBF /* Tests_iOSLaunchTests.swift */; };
+		B300BF1628BA43F1009CEFBF /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300BF1528BA43F1009CEFBF /* Tests_macOS.swift */; };
+		B300BF1828BA43F1009CEFBF /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300BF1728BA43F1009CEFBF /* Tests_macOSLaunchTests.swift */; };
+		B300BF1928BA43F1009CEFBF /* CrollingSourceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300BEF128BA43EE009CEFBF /* CrollingSourceApp.swift */; };
+		B300BF1A28BA43F1009CEFBF /* CrollingSourceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300BEF128BA43EE009CEFBF /* CrollingSourceApp.swift */; };
+		B300BF1B28BA43F1009CEFBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300BEF228BA43EE009CEFBF /* ContentView.swift */; };
+		B300BF1C28BA43F1009CEFBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300BEF228BA43EE009CEFBF /* ContentView.swift */; };
+		B300BF1D28BA43F1009CEFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B300BEF328BA43F1009CEFBF /* Assets.xcassets */; };
+		B300BF1E28BA43F1009CEFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B300BEF328BA43F1009CEFBF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B300BF0628BA43F1009CEFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B300BEEC28BA43EE009CEFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B300BEF728BA43F1009CEFBF;
+			remoteInfo = "CrollingSource (iOS)";
+		};
+		B300BF1228BA43F1009CEFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B300BEEC28BA43EE009CEFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B300BEFD28BA43F1009CEFBF;
+			remoteInfo = "CrollingSource (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B300BEF128BA43EE009CEFBF /* CrollingSourceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrollingSourceApp.swift; sourceTree = "<group>"; };
+		B300BEF228BA43EE009CEFBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B300BEF328BA43F1009CEFBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B300BEF828BA43F1009CEFBF /* CrollingSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrollingSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B300BEFE28BA43F1009CEFBF /* CrollingSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrollingSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B300BF0028BA43F1009CEFBF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B300BF0528BA43F1009CEFBF /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B300BF0928BA43F1009CEFBF /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		B300BF0B28BA43F1009CEFBF /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		B300BF1128BA43F1009CEFBF /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B300BF1528BA43F1009CEFBF /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		B300BF1728BA43F1009CEFBF /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B300BEF528BA43F1009CEFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B300BEFB28BA43F1009CEFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B300BF0228BA43F1009CEFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B300BF0E28BA43F1009CEFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B300BEEB28BA43EE009CEFBF = {
+			isa = PBXGroup;
+			children = (
+				B300BEF028BA43EE009CEFBF /* Shared */,
+				B300BEFF28BA43F1009CEFBF /* macOS */,
+				B300BF0828BA43F1009CEFBF /* Tests iOS */,
+				B300BF1428BA43F1009CEFBF /* Tests macOS */,
+				B300BEF928BA43F1009CEFBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B300BEF028BA43EE009CEFBF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B300BEF128BA43EE009CEFBF /* CrollingSourceApp.swift */,
+				B300BEF228BA43EE009CEFBF /* ContentView.swift */,
+				B300BEF328BA43F1009CEFBF /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B300BEF928BA43F1009CEFBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B300BEF828BA43F1009CEFBF /* CrollingSource.app */,
+				B300BEFE28BA43F1009CEFBF /* CrollingSource.app */,
+				B300BF0528BA43F1009CEFBF /* Tests iOS.xctest */,
+				B300BF1128BA43F1009CEFBF /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B300BEFF28BA43F1009CEFBF /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B300BF0028BA43F1009CEFBF /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		B300BF0828BA43F1009CEFBF /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B300BF0928BA43F1009CEFBF /* Tests_iOS.swift */,
+				B300BF0B28BA43F1009CEFBF /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		B300BF1428BA43F1009CEFBF /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B300BF1528BA43F1009CEFBF /* Tests_macOS.swift */,
+				B300BF1728BA43F1009CEFBF /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B300BEF728BA43F1009CEFBF /* CrollingSource (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B300BF2128BA43F1009CEFBF /* Build configuration list for PBXNativeTarget "CrollingSource (iOS)" */;
+			buildPhases = (
+				B300BEF428BA43F1009CEFBF /* Sources */,
+				B300BEF528BA43F1009CEFBF /* Frameworks */,
+				B300BEF628BA43F1009CEFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrollingSource (iOS)";
+			productName = "CrollingSource (iOS)";
+			productReference = B300BEF828BA43F1009CEFBF /* CrollingSource.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B300BEFD28BA43F1009CEFBF /* CrollingSource (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B300BF2428BA43F1009CEFBF /* Build configuration list for PBXNativeTarget "CrollingSource (macOS)" */;
+			buildPhases = (
+				B300BEFA28BA43F1009CEFBF /* Sources */,
+				B300BEFB28BA43F1009CEFBF /* Frameworks */,
+				B300BEFC28BA43F1009CEFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrollingSource (macOS)";
+			productName = "CrollingSource (macOS)";
+			productReference = B300BEFE28BA43F1009CEFBF /* CrollingSource.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B300BF0428BA43F1009CEFBF /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B300BF2728BA43F1009CEFBF /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				B300BF0128BA43F1009CEFBF /* Sources */,
+				B300BF0228BA43F1009CEFBF /* Frameworks */,
+				B300BF0328BA43F1009CEFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B300BF0728BA43F1009CEFBF /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = B300BF0528BA43F1009CEFBF /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B300BF1028BA43F1009CEFBF /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B300BF2A28BA43F1009CEFBF /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				B300BF0D28BA43F1009CEFBF /* Sources */,
+				B300BF0E28BA43F1009CEFBF /* Frameworks */,
+				B300BF0F28BA43F1009CEFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B300BF1328BA43F1009CEFBF /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = B300BF1128BA43F1009CEFBF /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B300BEEC28BA43EE009CEFBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B300BEF728BA43F1009CEFBF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B300BEFD28BA43F1009CEFBF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B300BF0428BA43F1009CEFBF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B300BEF728BA43F1009CEFBF;
+					};
+					B300BF1028BA43F1009CEFBF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B300BEFD28BA43F1009CEFBF;
+					};
+				};
+			};
+			buildConfigurationList = B300BEEF28BA43EE009CEFBF /* Build configuration list for PBXProject "CrollingSource" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B300BEEB28BA43EE009CEFBF;
+			productRefGroup = B300BEF928BA43F1009CEFBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B300BEF728BA43F1009CEFBF /* CrollingSource (iOS) */,
+				B300BEFD28BA43F1009CEFBF /* CrollingSource (macOS) */,
+				B300BF0428BA43F1009CEFBF /* Tests iOS */,
+				B300BF1028BA43F1009CEFBF /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B300BEF628BA43F1009CEFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B300BF1D28BA43F1009CEFBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B300BEFC28BA43F1009CEFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B300BF1E28BA43F1009CEFBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B300BF0328BA43F1009CEFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B300BF0F28BA43F1009CEFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B300BEF428BA43F1009CEFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B300BF1B28BA43F1009CEFBF /* ContentView.swift in Sources */,
+				B300BF1928BA43F1009CEFBF /* CrollingSourceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B300BEFA28BA43F1009CEFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B300BF1C28BA43F1009CEFBF /* ContentView.swift in Sources */,
+				B300BF1A28BA43F1009CEFBF /* CrollingSourceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B300BF0128BA43F1009CEFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B300BF0C28BA43F1009CEFBF /* Tests_iOSLaunchTests.swift in Sources */,
+				B300BF0A28BA43F1009CEFBF /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B300BF0D28BA43F1009CEFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B300BF1828BA43F1009CEFBF /* Tests_macOSLaunchTests.swift in Sources */,
+				B300BF1628BA43F1009CEFBF /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B300BF0728BA43F1009CEFBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B300BEF728BA43F1009CEFBF /* CrollingSource (iOS) */;
+			targetProxy = B300BF0628BA43F1009CEFBF /* PBXContainerItemProxy */;
+		};
+		B300BF1328BA43F1009CEFBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B300BEFD28BA43F1009CEFBF /* CrollingSource (macOS) */;
+			targetProxy = B300BF1228BA43F1009CEFBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B300BF1F28BA43F1009CEFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B300BF2028BA43F1009CEFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B300BF2228BA43F1009CEFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 934B8YAZ3D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Teddy.CrollingSource;
+				PRODUCT_NAME = CrollingSource;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B300BF2328BA43F1009CEFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 934B8YAZ3D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Teddy.CrollingSource;
+				PRODUCT_NAME = CrollingSource;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B300BF2528BA43F1009CEFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 934B8YAZ3D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Teddy.CrollingSource;
+				PRODUCT_NAME = CrollingSource;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B300BF2628BA43F1009CEFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 934B8YAZ3D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Teddy.CrollingSource;
+				PRODUCT_NAME = CrollingSource;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B300BF2828BA43F1009CEFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 934B8YAZ3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Teddy.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CrollingSource (iOS)";
+			};
+			name = Debug;
+		};
+		B300BF2928BA43F1009CEFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 934B8YAZ3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Teddy.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CrollingSource (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B300BF2B28BA43F1009CEFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 934B8YAZ3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Teddy.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CrollingSource (macOS)";
+			};
+			name = Debug;
+		};
+		B300BF2C28BA43F1009CEFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 934B8YAZ3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Teddy.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CrollingSource (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B300BEEF28BA43EE009CEFBF /* Build configuration list for PBXProject "CrollingSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B300BF1F28BA43F1009CEFBF /* Debug */,
+				B300BF2028BA43F1009CEFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B300BF2128BA43F1009CEFBF /* Build configuration list for PBXNativeTarget "CrollingSource (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B300BF2228BA43F1009CEFBF /* Debug */,
+				B300BF2328BA43F1009CEFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B300BF2428BA43F1009CEFBF /* Build configuration list for PBXNativeTarget "CrollingSource (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B300BF2528BA43F1009CEFBF /* Debug */,
+				B300BF2628BA43F1009CEFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B300BF2728BA43F1009CEFBF /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B300BF2828BA43F1009CEFBF /* Debug */,
+				B300BF2928BA43F1009CEFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B300BF2A28BA43F1009CEFBF /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B300BF2B28BA43F1009CEFBF /* Debug */,
+				B300BF2C28BA43F1009CEFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B300BEEC28BA43EE009CEFBF /* Project object */;
+}

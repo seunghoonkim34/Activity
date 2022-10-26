@@ -1,0 +1,6 @@
+framework module Pods_OneboardControllerTests {
+  umbrella header "Pods-OneboardControllerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
